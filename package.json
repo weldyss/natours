@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for Natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weldyss/natours.git"
+  },
+  "author": "Weldys Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weldyss/natours/issues"
+  },
+  "homepage": "https://github.com/weldyss/natours#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {}
+}
